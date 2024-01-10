@@ -1,0 +1,21 @@
+{
+  "name": "cloud-create-admin-app",
+  "version": "0.0.1",
+  "description": "Create template React App Admin by Cloud",
+  "private": false,
+  "bin": {
+    "cloud-admin-app": "./bin/cloud-admin-app.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "upVersion": "npm version patch",
+    "public": "npm run upVersion && npm publish --access public"
+  },
+  "type": "module",
+  "author": "Cloud Admin App",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "inquirer": "^9.2.12"
+  }
+}
