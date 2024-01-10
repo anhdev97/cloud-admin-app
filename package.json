@@ -17,5 +17,10 @@
   "dependencies": {
     "commander": "^11.1.0",
     "inquirer": "^9.2.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anhdev97/cloud-admin-app"
+  },
+  "homepage": "https://github.com/anhdev97/cloud-admin-app#readme"
 }
